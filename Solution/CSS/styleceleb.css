@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Sofia", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 0 black;
+    word-spacing: 1.8rem;
+}
+
+.Celeb {
+    align-items: center;
+    background: url(../Images/jason-leung-Xaanw0s0pMk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.Celeb .date {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1.5rem;
+    letter-spacing: 1.5rem;
+}
+
+@media screen and (min-width :745px) {
+    .Celeb {
+        background: url(../Images/jason-leung-Xaanw0s0pMk-unsplash\ 745w.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .Celeb .date {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width :1200px) {
+    .Celeb {
+        background: url(../Images/jason-leung-Xaanw0s0pMk-unsplash\ 1200w.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width :1200px) {
+    .Celeb {
+        background: url(../Images/jason-leung-Xaanw0s0pMk-unsplash\ 1400w.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 9rem;
+    }
+}

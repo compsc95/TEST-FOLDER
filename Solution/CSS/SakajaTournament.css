@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Audiowide", sans-serif;
+}
+
+h1{
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 black ;
+    word-spacing: 1.8rem;
+}
+
+.Touna {
+    background: url(../Images/jannik-skorna-mY2ZHBU6GRk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.Touna .Dimple {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1.5rem;
+    letter-spacing: 1.8;
+}
+
+@media screen and (min-width: 745px) {
+    .Touna {
+        background: url(../Images/jannik-skorna-mY2ZHBU6GRk-unsplash\ 745w.jpg) no-repeat;
+        background-size: cover;
+    }
+    .Touna .Dimple {
+        font-size: 3px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Touna {
+        background: url(../Images/jannik-skorna-mY2ZHBU6GRk-unsplash\ 1250w.jpg) no-repeat;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 6px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Touna {
+        background: url(../Images/jannik-skorna-mY2ZHBU6GRk-unsplash\ 1400w.jpg) no-repeat;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 9px;
+    }
+}
