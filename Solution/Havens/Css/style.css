@@ -1,0 +1,53 @@
+/*Html font size*/
+html {
+    font-size: 62.5%;
+}
+
+/*Body font family and size*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+}
+
+/*.menu background and color*/
+.menu {
+    background: #ADF3F2;
+    color: white;
+}
+
+/*Using inherit property*/
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Ul list style and padding*/
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*li padding*/
+.menu li {
+    padding: 1.8rem;
+}
+/*Hover element*/
+.menu li:hover .menu .active {
+    background: #141515;
+    color: white;
+}
+
+/*Icons display*/
+.menu .fas {
+    margin-right: 1rem;
+    width: 2rem;
+    text-align: center;
+}
+
+/*Phone display properties set*/
+@media screen and (min-width: 768px) {
+    .menu{
+        width: 20%;
+        height: 100vh;
+    }
+}
